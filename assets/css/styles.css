@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  background: url(../img/pokeball_wallpaper_by_drpokelover-d9gwrgf.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -60% 40%;
+}
+
+.masthead {
+
+}
