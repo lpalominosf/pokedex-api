@@ -12,6 +12,21 @@ body {
   background-position: -60% 40%;
 }
 
-#pokemon-container img{
-  
+#pokemon-container img {
+  width: 200px;
+  height: 200px;
+}
+
+.close-modal {
+  float: right;
+  margin-top: 
+}
+
+.info-modal {
+  height: 200px;
+  text-align: center;
+}
+
+.title-modal {
+  text-align: center;
 }
