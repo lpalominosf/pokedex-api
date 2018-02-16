@@ -3,7 +3,7 @@
 */
 $('#pokesearch').click(function() {
   // Rescatando el valor ingresado
-  const pokemonName = $('pokemon-name').val();
+  const pokemonName = $('#pokemon-name').val();
   $.ajax({
     url: `https://pokeapi.co/api/v2/pokemon/${pokemonName}`,
     type: 'GET',
@@ -18,11 +18,10 @@ $('#pokesearch').click(function() {
     const pakimonName = data.name;
     const pakimonNumber = data.order;
     const pakimonWeight = data.weight;
-    const pakimonGeneration = data.generation;
     const pakimonAbbilities = data.abilities[0].ability.name;
     $('.info-modal').empty();
     $('#pokemon-container').append(`<img class="pakimon-imagen pakimon-img-modal" src="${pakimonImg}" data-toggle="modal" data-target="#myModal"><h3><strong>${pakimonName}</strong></h3>`);
-    $('.info-modal').append(`<p>Peso: ${pakimonWeight}</p><p>Número: ${pakimonNumber}</p><p>Generacion: ${pakimonGeneration}</p><p>Habilidades: ${pakimonAbbilities}</p>`);
+    $('.info-modal').append(`<p>Peso: ${pakimonWeight}</p><p>Número: ${pakimonNumber}<p>Habilidades: ${pakimonAbbilities}</p>`);
   }
 
   function error() {
