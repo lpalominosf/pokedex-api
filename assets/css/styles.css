@@ -4,17 +4,17 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nanum Pen Script', cursive;
   color: #000;
-  background: url(../img/pokeball_wallpaper_by_drpokelover-d9gwrgf.jpg);
+  background: url(../img/unova_pokedex_by_omniferious-d3c6bcj.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: -60% 40%;
 }
 
 #pokemon-container img {
-  width: 200px;
-  height: 200px;
+  width: 500px;
+  height: 500px;
+  margin-top: 20%;
 }
 
 .close-modal {
@@ -24,9 +24,40 @@ body {
 
 .info-modal {
   height: 200px;
-  text-align: center;
 }
 
-.title-modal {
-  text-align: center;
+.modal-content {
+  width: 400px;
+}
+
+h1 {
+  color: #fff;
+  margin-top: 40%;
+  font-size: 70px;
+}
+
+.input-group .form-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn,
+.input-group-btn:first-child>.dropdown-toggle,
+.input-group-btn:last-child>.btn-group:not(:last-child)>.btn,
+.input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 100px;
+  font-size: 50px;
+}
+
+.input-group-btn:last-child>.btn,
+.input-group-btn:last-child>.btn-group {
+  z-index: 2;
+  margin-left: -1px;
+  height: 100px;
+  width: 100px;
+}
+
+b, strong {
+  font-weight: 700;
+  font-size: 70px;
+  color: #fff;
 }
