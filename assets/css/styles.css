@@ -23,13 +23,13 @@ body {
 }
 
 .info-modal {
-  height: 200px;
+  height: 250px;
 }
 
 .modal-content {
   width: 600px;
   margin-top: 80%;
-  font-size: 35px;
+  font-size: 50px;
 }
 
 h1 {
@@ -65,7 +65,7 @@ b, strong {
 }
 
 .h3, h3 {
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .btn-danger{
