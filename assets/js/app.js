@@ -21,7 +21,7 @@ $('#pokesearch').click(function() {
     const pakimonWeight = data.weight;
     const pakimonAbbilities = data.abilities[0].ability.name;
     $('.info-modal').empty();
-    $('#pokemon-container').append(`<img class="pakimon-imagen pakimon-img-modal img-responsive" src="${pakimonImg}" data-toggle="modal" data-target="#myModal"><h3><strong>${data.name}</strong></h3>`);
+    $('#pokemon-container').append(`<img class="pakimon-imagen pakimon-img-modal" src="${pakimonImg}" data-toggle="modal" data-target="#myModal"><h3><strong>${data.name}</strong></h3>`);
     $('.info-modal').append(`<p>Peso: ${pakimonWeight}</p><p>Número: ${pakimonNumber}<p>Habilidades: ${pakimonAbbilities}</p>`);
   }
 
