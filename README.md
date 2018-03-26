@@ -1,4 +1,4 @@
-[![Sourcegraph for Repo Reference Count](https://img.shields.io/badge/Release%20Date-March-brightgreen.svg?style=flat-square)]
+![Sourcegraph for Repo Reference Count](https://img.shields.io/badge/Release%20Date-March-brightgreen.svg?style=flat-square)
 
 # Pokedex-api
 Pokedex es un buscador de Pokémon, puedes buscar por nombre o número del mismo, funciona utilizando la API de Pokemon
