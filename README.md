@@ -1,6 +1,8 @@
-# pokedex-api
+# Pokedex-api
 Pokedex es un buscador de Pokémon, puedes buscar por nombre o número del mismo, funciona utilizando la API de Pokemon
 
 ***
 
-![img](images/readme-img.png)
+![img](assets/img/readme.png)
+
+[Demo](https://lpalominosf.github.io/pokedex-api/)
