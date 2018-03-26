@@ -15,3 +15,4 @@ Pokedex es un buscador de Pokémon, puedes buscar por nombre o número del mismo
 
 ![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)
 
+## Desarrollado para [Laboratoria](http://laboratoria.la)
