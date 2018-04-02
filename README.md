@@ -4,7 +4,8 @@
 Pokedex es un buscador de Pokémon, puedes buscar por nombre o número del mismo, funciona utilizando la API de Pokemon
 
 ***
-![img](assets/img/readme.png)
+![pokedex](https://user-images.githubusercontent.com/32282235/38211617-6dfada6a-3691-11e8-93bc-68fa2878b594.png)
+
 
 * Dependencias de Producción
   - jQuery `~v.3.3.1`
